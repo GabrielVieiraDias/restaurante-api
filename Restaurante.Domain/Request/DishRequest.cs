@@ -16,7 +16,7 @@ namespace Restaurante.Domain.Request
         public string Description { get; set; }
 
         [DataMember(Name = "price")]
-        public float Price { get; set; }
+        public double Price { get; set; }
 
         [DataMember(Name = "restaurant_id")]
         public long RestaurantId { get; set; }

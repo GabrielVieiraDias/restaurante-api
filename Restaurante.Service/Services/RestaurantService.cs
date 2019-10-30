@@ -27,6 +27,5 @@ namespace Restaurante.Service.Services
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-
     }
 }

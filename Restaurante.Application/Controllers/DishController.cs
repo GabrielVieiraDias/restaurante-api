@@ -8,7 +8,7 @@ using Restaurante.Service.Validators;
 using System;
 using System.Collections.Generic;
 
-namespace Dishe.Application.Controllers
+namespace Restaurante.Application.Controllers
 {
     [Route("api/[controller]")]
     [Authorize]
